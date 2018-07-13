@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "480468082012",
+    "firebase_url": "https://jaga-sehat.firebaseio.com",
+    "project_id": "jaga-sehat",
+    "storage_bucket": "jaga-sehat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480468082012:android:5650587f6a44ad77",
+        "android_client_info": {
+          "package_name": "com.oop.android.jagasehat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480468082012-9t6ild0f09m58bamjumanb3739fnptcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oop.android.jagasehat",
+            "certificate_hash": "bcff50f4bbcd958379a078af49dd7f2ae7e76c0f"
+          }
+        },
+        {
+          "client_id": "480468082012-gjc38kto749ccie2p169nuah6dfuphig.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "480468082012-gjc38kto749ccie2p169nuah6dfuphig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOFtNVWniVCRBvkarHzXIY7Yc7esWcWik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480468082012-gjc38kto749ccie2p169nuah6dfuphig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

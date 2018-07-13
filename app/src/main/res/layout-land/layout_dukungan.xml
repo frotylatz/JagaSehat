@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="48dp">
+
+    <ImageView
+        android:id="@+id/imageDukungan"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/taujilbab"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/descDukungan"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/titleDukungan"
+        android:textSize="17dp"
+        android:fontFamily="@font/opensans_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tokoh1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color2"
+        android:textAlignment="center"
+        android:text="" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/descDukungan"
+        android:textSize="16dp"
+        android:fontFamily="@font/opensans_regular"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleDukungan"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:text="Dukungan tidak hanya dari suami dan keluarga, bisa juga dari sahabat atau orang yang peduli pada Ibu." />
+
+</RelativeLayout>

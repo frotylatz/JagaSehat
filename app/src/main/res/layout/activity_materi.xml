@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slideViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/titleMateriTokoh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Pengenalan Tokoh"
+        android:fontFamily="@font/opensans_extrabold"
+        android:textColor="@color/color3"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/titleMateriAdaapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:text="Ada Apa Dengan Payudara Saya?"
+        android:fontFamily="@font/opensans_extrabold"
+        android:textColor="@color/color3"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/titleMateriDukungan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ibu Tidak Sendirian"
+        android:fontFamily="@font/opensans_extrabold"
+        android:textColor="@color/color3"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:layout_alignBottom="@id/slideViewPager"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:ci_animator="@animator/indicator_animator"
+        app:ci_animator_reverse="@animator/indicator_animator_reverse"
+        app:ci_drawable="@drawable/black_radius"
+        app:ci_height="5dp"
+        app:ci_margin="6dp"
+        app:ci_width="15dp">
+
+    </me.relex.circleindicator.CircleIndicator>
+
+    <Button
+        android:id="@+id/btnPrev"
+        android:fontFamily="@font/opensans_regular"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:textColor="@color/color2"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:fontFamily="@font/opensans_regular"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@color/color2"/>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:fontFamily="@font/opensans_regular"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textColor="@color/color2"
+        android:visibility="invisible"/>
+</RelativeLayout>

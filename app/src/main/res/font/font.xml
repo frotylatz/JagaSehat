@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Regular -->
+    <font
+        android:font="@font/opensans_regular"/>
+
+    <!--Italic-->
+    <font
+        android:font="@font/opensans_italic" />
+
+    <!--Light-->
+    <font
+        android:font="@font/opensans_light" />
+
+    <!--Bold-->
+    <font
+        android:font="@font/opensans_bold" />
+
+    <!--ExtraBold-->
+    <font
+        android:font="@font/opensans_extrabold" />
+
+</font-family>

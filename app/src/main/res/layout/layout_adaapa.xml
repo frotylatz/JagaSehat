@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="25dp">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/dialogAdaapa"
+        android:textSize="16dp"
+        android:fontFamily="@font/opensans_regular"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namaTokoh1"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/color2"
+        android:text="Dokter Ahyani, beberapa teman saya yang merasakan ada benjolan di payudaranya, mereka cemas dan bertanya,''Ada apa dengan payudara saya? Apakah benjolan ini bisa diobati?'' Bagaimana pengalaman dokter Ahyani saat itu?" />
+
+    <ImageView
+        android:id="@+id/adaapaimage"
+        android:layout_below="@id/dialogAdaapa"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nanyapink"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

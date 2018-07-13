@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">JagaSehat</string>
+    <string name="facebook_app_id">206184426874167</string>
+    <string name="facebook_login_protocol_scheme">fb206184426874167</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">oYpQ66XyYMKj85uBidXhZvNAL</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">n3NhuWfDoTnh7dUDFXbuqkkg96WAEIUaIazEUj2GLs9d7ptgcp
+</string>
+
+    <string name="jk">Jenis Kelamin</string>
+    <string name="jk_l">Laki-laki</string>
+    <string name="jk_p">Perempuan</string>
+
+    <string name="usia">Usia</string>
+
+    <string name="prompt">Pilih</string>
+
+    <string name="pendidikan">Pendidikan</string>
+
+    <string name="opt_sd">SD</string>
+    <string name="opt_smp">SMP</string>
+    <string name="opt_sma">SMA</string>
+    <string name="opt_pt">Perguruan Tinggi</string>
+
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="opt_pns">PNS/TNI/Polri</string>
+    <string name="opt_swasta">Pegawai Swasta</string>
+    <string name="opt_wiras">Wiraswasta</string>
+    <string name="opt_mhs">Mahasiswa</string>
+    <string name="opt_pljr">Pelajar</string>
+    <string name="opt_other">Lainnya</string>
+
+    <string name="email">Email</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="descApp">JagaSehat adalah aplikasi sosialisasi literasi kesehatan yang
+meliputi 9 kategori HLQ untuk masyarakat Jawa Barat, dengan
+fitur edukasi kesehatan</string>
+    <string name="credit">Dibuat oleh:\n140810160019 Herizal Kurniawan\n140810160043 Fidriyanto Rizkillah\n140810160051 Zaenal Muttaqien\n\n
+    Dosen Pembimbing:\nErick Paulus, M.Kom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pendidikanlist">
+        <item>@string/opt_sd</item>
+        <item>@string/opt_smp</item>
+        <item>@string/opt_smp</item>
+        <item>@string/opt_sma</item>
+        <item>@string/opt_pt</item>
+    </string-array>
+
+    <string-array name="pekerjaanlist">
+        <item>@string/opt_pns</item>
+        <item>@string/opt_swasta</item>
+        <item>@string/opt_wiras</item>
+        <item>@string/opt_mhs</item>
+        <item>@string/opt_pljr</item>
+        <item>@string/opt_other</item>
+    </string-array>
+
+</resources>

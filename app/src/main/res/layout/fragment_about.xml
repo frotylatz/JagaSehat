@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oop.android.jagasehat.fragment.FragmentContact"
+    android:background="@color/color1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="25dp">
+        <RelativeLayout
+            android:id="@+id/headerLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/logoApps"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/logosplash"/>
+
+            <ImageView
+                android:id="@+id/unpadLogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@id/logoApps"
+                android:src="@drawable/unpad"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/descApp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headerLogo"
+            android:layout_marginTop="20dp"
+            android:text="@string/descApp"
+            android:textAlignment="center"
+            android:textColor="@color/color4"
+            android:textSize="16dp"
+            android:fontFamily="@font/opensans_bold"/>
+
+        <TextView
+            android:id="@+id/creditText"
+            android:textColor="@color/color4"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descApp"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/credit"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/creditText"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/shareButton"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Bagikan Aplikasi Ini"
+                android:background="@drawable/round_button"
+                android:textColor="@color/color1"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
